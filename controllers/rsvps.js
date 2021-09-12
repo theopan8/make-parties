@@ -7,7 +7,7 @@ module.exports = (app, models) => {
             res.render('rsvps-new', { event: event });
         });
     });
-  
+
     // CREATE
     app.post('/events/:eventId/rsvps', (req, res) => {
         req.body.EventId = req.params.eventId;
