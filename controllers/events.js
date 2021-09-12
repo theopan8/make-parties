@@ -1,5 +1,5 @@
 //events.js
-const moment = require('moment');
+moment = require('moment');
 module.exports = function (app, models) {
     //INDEX
     app.get('/', (req, res) => {
